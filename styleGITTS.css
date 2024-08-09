@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(246, 245, 193);
+}
+
+
+ul {
+    list-style-type: none; /*to change point */
+     margin:0;
+     padding:0;
+     overflow: hidden;
+     background-color: white;
+  }
+  
+li{
+float: right;
+}
+
+
+
+li a{
+display:block;
+color: black;
+text-align: center;
+padding: 14px 16px; /*spacing*/
+text-decoration: none; /*link text ntei adhiyil vazha poyyi*/
+}
+
+li a:hover { /*hover-mouse pointing*/
+background-color: rgb(155, 108, 235);
+}
+
+h1{
+    
+    width: 100%;
+font-size: 50px;
+text-align: center;
+}
+
+.about h4{
+    text-align: justify;
+    float: top;
+    margin: 0%;
+    text-align: center;
+}
+
+.about h3{
+    padding: 0% %;
+    width: 100;
+    text-align: center;
+}
+
+
+
+
+
+.about img{
+    border-radius: 50%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+  
+}
+
+footer{
+position: fixed;
+bottom: 0%;
+background-color: white;
+width: 100%;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+}
+
+.foot a{
+margin: 0 10px;
+}
+
+.favourite{
+padding-top: 2cm;
+}
+
+.proj1
+    {
+        padding: 1cm;
+        margin: 35px;
+        width: 50%;
+        border: 3px solid black;
+    }
+
+.proj1 h3{
+    text-align: center;
+    }
+    
+    .proj2
+    {
+        padding: 1cm;
+        margin: 35px;
+        width: 50%;
+        border: 3px solid black;
+    }
+
+    .proj2 h3{
+        text-align: center;
+        }
+
+
+    .proj3
+    {
+        padding: 1cm;
+        margin: 35px;
+        width: 50%;
+        border: 3px solid black;
+    }
+
+    .proj3 h3{
+        text-align: center;
+        }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    input{
+        <input align:middle;>
+    }
